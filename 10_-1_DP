@@ -1,0 +1,25 @@
+there is a pyramid with 1 cup at level , 2 at level 2 , 3 at level 3 and so on.. 
+It looks something like this 
+1 
+2 3 
+4 5 6 
+every cup has capacity C. you pour L liters of water from top .
+when cup 1 gets filled , it overflows to cup 2,3 equally, and when they get filled , 
+Cup 4 and 6 get water only from 2 and 3 resp but 5 gets water from both the cups and so on. 
+Now given C and M .Find the amount of water in ith cup.
+
+
+
+
+
+pbulic class Solution{
+
+    public double calculate(double c , double l , int k ){
+        int row = Math.sqrt(k*2);
+        int col = k- row*(row-1)/2;
+        if(k == 1) return l;
+        int left=0 ,right=0;
+        if(col > 1) left = calculate(c,l,k - row);
+    }
+    ...   no sprite
+}
