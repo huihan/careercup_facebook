@@ -1,3 +1,5 @@
+http://www.careercup.com/question?id=6287528252407808
+
 A k-palindrome is a string which transforms into a palindrome on removing at most k characters. 
 
 Given a string S, and an interger K, print "YES" if S is a k-palindrome; otherwise print "NO". 
